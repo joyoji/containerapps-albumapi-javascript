@@ -1,9 +1,9 @@
 name: Trigger auto deployment
 on:
     # 手動実行用トリガー
-    workflow_dispatch:      
-    # Add env
-    env:
+    workflow_dispatch: 
+# Add env
+env:
       CONTAINER_REGISTRY: containerregistry202208.azurecr.io
 jobs:
   build:
